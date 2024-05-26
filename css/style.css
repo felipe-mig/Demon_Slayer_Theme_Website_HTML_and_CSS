@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+/* Colour Palette (This is for having all the colours together) */
+.Colours {
+  color: #B23226; /* Logo */
+  color: #4d0f0f; /* Character-box */
+  color: #380b0b; /* Name-box */
+  color: #a67c00; /* Border */
+  color: #ffdc73; /* Border */
+  color: #EFFFFF; /* Text */
+
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+}
+
+/* NAV */
+
+.spacer {
+  width: 100vw;
+  height: 5vh;
+}
+.header {
+  width: 80vw;
+  margin: auto;
+  height: 20vh;
+  background-color:#000000 ;
+  margin-right: 16em;
+}
+.main-title {
+  width: 100vw;
+  height: 8vh;
+  background-color: yellow;
+  margin-top: 4em;
+}
+.nav {
+  height: 3vh;
+  float: left;
+  margin-top: 5em;
+  background-color: #000000;
+
+  
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+
+  padding: 0.2em;
+  margin-left: 2.6em; 
+}
+
+.nav a:hover {
+  color: #B23226;
+}
+
+/* logos */
+
+.logo-1 {
+  width: 22vw;
+  height: 20vh;
+  
+  float: left;
+  overflow-y: hidden;
+}
+.logo-1-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* CHARACTERS-SECTION */
+
+/* Characters-Container-A */
+
+.main-character-box-a {
+  width: 82vw;
+  height: 54vh;
+  margin: 0 auto;
+  background-color: #000000;
+}
+/* Tanjiro Kamado Container */
+.character-box-1a {
+  width: 19vw;
+  height: 50vh;
+  border-radius: 10px;
+  border: 0.2em solid #a67c00;
+  background-color: #4d0f0f;
+  float: left;
+  margin: 1em 0 0 1em;
+}
+.character-box-1a:hover {
+  transform: scale(1.03);
+  box-shadow: 
+  0 0 .1rem #ffdc73,
+  0 0 .1rem #ffdc73,
+  0 0 1rem #a67c00,
+  0 0 0.1rem #a67c00,
+  0 0 0.5rem #a67c00,
+  inset 0 0 0.3rem #a67c00;
+  background-color: #380b0b;
+}
+.cb-im1a {
+  width: 15.2vw;
+  height: 38.9vh;
+  border: 0.1em solid #a67c00;
+  background-color: aliceblue;
+  margin-left: 2.1em;
+  margin-top: 2.1em;
+  overflow-y: hidden;
+}
+.cb-name1a {
+  width: 11vw;
+  height: 3vh;
+  border: 0.01em solid #a67c00;
+  background-color: #380b0b;
+  margin-left: 4.5em;
+  margin-top: 1.1em;
+}
+
+/* Zenitsu Agatsuma Container */
+.character-box-2a {
+  width: 19vw;
+  height: 50vh;
+  border-radius: 10px;
+  border: 0.2em solid #a67c00;
+  background-color: #4d0f0f;
+  float: left;
+  margin-left: 12vw;
+  margin-top: 1em;
+}
+
+.cb-im2a {
+  width: 15.2vw;
+  height: 38.9vh;
+  border: 0.1em solid #a67c00;
+  background-color: aliceblue;
+  margin-left: 2.1em;
+  margin-top: 2.1em;
+  overflow-y: hidden;
+}
+.cb-name2a {
+  width: 11vw;
+  height: 3vh;
+  border: 0.01em solid #a67c00;
+  background-color: #380b0b;
+  margin-left: 4.5em;
+  margin-top: 1.1em;
+}
+
+/* Nezuko Kamado Container */
+.character-box-3a {
+  width: 19vw;
+  height: 50vh;
+  border-radius: 10px;
+  border: 0.2em solid #a67c00;
+  background-color: #4d0f0f;
+  float: right;
+  margin: 1em 1.1em 0 0;
+  
+}
+.cb-im3a {
+  width: 15.2vw;
+  height: 38.9vh;
+  border: 0.1em solid #a67c00;
+  background-color: aliceblue;
+  margin-left: 2.1em;
+  margin-top: 2.1em;
+  overflow-y: hidden;
+}
+.cb-name3a {
+  width: 11vw;
+  height: 3vh;
+  border: 0.01em solid #a67c00;
+  background-color: #380b0b;
+  margin-left: 4.5em;
+  margin-top: 1.1em;
+}
+
+/* Characters-Container-B */
+
+.main-character-box-b {
+  width: 82vw;
+  height: 54vh;
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+/* Genya Shinazukawa Container */
+.character-box-1b {
+  width: 19vw;
+  height: 50vh;
+  border-radius: 10px;
+  border: 0.2em solid #a67c00;
+  background-color: #4d0f0f;
+  float: left;
+  margin: 1em 0 0 1em;
+}
+.cb-im1b {
+  width: 15.2vw;
+  height: 38.9vh;
+  border: 0.1em solid #a67c00;
+  background-color: aliceblue;
+  margin-left: 2.1em;
+  margin-top: 2.1em;
+  overflow-y: hidden;
+}
+.cb-name1b {
+  width: 11vw;
+  height: 3vh;
+  border: 0.01em solid #a67c00;
+  background-color: #380b0b;
+  margin-left: 4.5em;
+  margin-top: 1.1em;
+}
+
+/* Kaigaku Container */
+.character-box-2b {
+  width: 19vw;
+  height: 50vh;
+  border-radius: 10px;
+  border: 0.2em solid #a67c00;
+  background-color: #4d0f0f;
+  float: left;
+  margin-left: 12vw;
+  margin-top: 1em;
+}
+.cb-im2b {
+  width: 15.2vw;
+  height: 38.9vh;
+  border: 0.1em solid #a67c00;
+  background-color: aliceblue;
+  margin-left: 2.1em;
+  margin-top: 2.1em;
+  overflow-y: hidden;
+}
+.cb-name2b {
+  width: 11vw;
+  height: 3vh;
+  border: 0.01em solid #a67c00;
+  background-color: #380b0b;
+  margin-left: 4.5em;
+  margin-top: 1.1em;
+}
+
+/* Hantengu Container */
+.character-box-3b {
+  width: 19vw;
+  height: 50vh;
+  border-radius: 10px;
+  border: 0.2em solid #a67c00;
+  background-color: #4d0f0f;
+  float: right;
+  margin: 1em 1.1em 0 0;
+}
+.cb-im3b {
+  width: 15.2vw;
+  height: 38.9vh;
+  border: 0.1em solid #a67c00;
+  background-color: aliceblue;
+  margin-left: 2.1em;
+  margin-top: 2.1em;
+  overflow-y: hidden;
+}
+.cb-name3b {
+  width: 11vw;
+  height: 3vh;
+  border: 0.01em solid #a67c00;
+  background-color: #380b0b;
+  margin-left: 4.5em;
+  margin-top: 1.1em;
+}
+
+/* Characters images settings */
+.character-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Characters Hover Property */
+
+/* Tanjiro Kamado hover */
+.character-box-1a:hover {
+  transform: scale(1.05);
+  box-shadow: 
+  0 0 .1rem #ffdc73,
+  0 0 .1rem #ffdc73,
+  0 0 1rem #a67c00,
+  0 0 0.1rem #a67c00,
+  0 0 0.5rem #a67c00,
+  inset 0 0 0.3rem #a67c00;
+  background-color: #380b0b;
+}
+/* Zenistsu Agatsuma hover */
+.character-box-2a:hover {
+  transform: scale(1.05);
+  box-shadow: 
+  0 0 .1rem #ffdc73,
+  0 0 .1rem #ffdc73,
+  0 0 1rem #a67c00,
+  0 0 0.1rem #a67c00,
+  0 0 0.5rem #a67c00,
+  inset 0 0 0.3rem #a67c00;
+  background-color: #380b0b;
+}
+/* Nezuko Kamado hover */
+.character-box-3a:hover {
+  transform: scale(1.05);
+  box-shadow: 
+  0 0 .1rem #ffdc73,
+  0 0 .1rem #ffdc73,
+  0 0 1rem #a67c00,
+  0 0 0.1rem #a67c00,
+  0 0 0.5rem #a67c00,
+  inset 0 0 0.3rem #a67c00;
+  background-color: #380b0b;
+}
+/* Genya Shinazugawa hover */
+.character-box-1b:hover {
+  transform: scale(1.05);
+  box-shadow: 
+  0 0 .1rem #ffdc73,
+  0 0 .1rem #ffdc73,
+  0 0 1rem #a67c00,
+  0 0 0.1rem #a67c00,
+  0 0 0.5rem #a67c00,
+  inset 0 0 0.3rem #a67c00;
+  background-color: #380b0b;
+}
+/* Kaigaku hover */
+.character-box-2b:hover {
+  transform: scale(1.05);
+  box-shadow: 
+  0 0 .1rem #ffdc73,
+  0 0 .1rem #ffdc73,
+  0 0 1rem #a67c00,
+  0 0 0.1rem #a67c00,
+  0 0 0.5rem #a67c00,
+  inset 0 0 0.3rem #a67c00;
+  background-color: #380b0b;
+}
+/* Hantengu hover */
+.character-box-3b:hover {
+  transform: scale(1.05);
+  box-shadow: 
+  0 0 .1rem #ffdc73,
+  0 0 .1rem #ffdc73,
+  0 0 1rem #a67c00,
+  0 0 0.1rem #a67c00,
+  0 0 0.5rem #a67c00,
+  inset 0 0 0.3rem #a67c00;
+  background-color: #380b0b;
+}
+
+/* CTA */
+
+/* cta-container */
+.cta {
+  width: 83vw;
+  height: 75vh;
+  background-color: #000000;
+  margin: 0 auto;
+  overflow-y: hidden;
+}
+/* cta-image */
+.cta-image {
+  width: 80vw;
+  height: 72vh;
+  margin: 1em 1em 1em 1.5em;
+}
+
+.cta-image:hover {
+  transform: scale(1.03);
+  border: 0.1em solid #a67c00;
+}
+
+/* STORY-SECTION */
+
+.story-container {
+  width: 81vw;
+  height: 61vh;
+  margin: 0 auto;
+  background-color: green;
+}
+.story-title {
+  width: 81vw;
+  margin: auto;
+  height: 6vh;
+  background-color: #4d0f0f;
+  border: 0.1em solid #a67c00;
+  color: #bf9b30;
+  padding-bottom: 0.5em;
+}
+.story-img-container {
+  width: 81vw;
+  margin: auto;
+  height: 55vh;
+  background-color: #380b0b;
+  overflow-y: hidden;
+  
+}
+.story-img-container img {
+  width: 45vw;
+  height: 55vh;
+  float: left;
+  overflow-y: hidden;
+}
+.story-img-container img:hover {
+  transform: scale(1.05);
+}
+.story-p {
+  width: 35vw;
+  margin: auto;
+  height: 55vh;
+  padding: 2em;
+  background-color: #380b0b;
+  float: right;
+  
+  
+}
+
+/* text */
+
+h1 {
+  margin-left: 8em;
+  margin-top: 0.5em;
+}
+h2 {
+  font-family: prr2;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0.2em;
+}
+h3 { 
+  text-align: center;
+  color: #bf9b30;
+  font-size: 1.1em;
+}
+
+p {
+  font-size: 1.13em;
+  color: #EFFFFF;
+}
+
+/* Youtube Videos */
+.video {
+  width: 45vw;
+  height: 55vh;
+  float: left;
+  overflow-y: hidden;
+  border: 0.1em solid #a67c00; 
+}
+
+/* footer */
+footer{
+  width: 80vw;
+  height: 15vh;
+  margin: 0 auto;
+  font-size: 1.1em;
+  background-color: none;
+  text-decoration: none;
+  text-align: center;
+  color:#bf9b30;
+}
+
+.footer-container{
+ margin-top: 1.1em;
+ border-radius: 15px;
+}
+
+.footer-box p {
+  font-size: 1em;
+}
+
+p a {
+  color: #bf9b30;
+}
+
+.copyright{
+  padding: 0.9em;
+
+}
+
+footer .box-container .box{
+  margin-top: 1em;
+
+}
